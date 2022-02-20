@@ -10,14 +10,9 @@ LeapCentury = year%100
 Leap2Century = year%400
 
 
-if LeapYear == 0 and LeapCentury != 0:
-      
-  print(f"{year} is a Leap Year")
-
-elif LeapCentury == 0 and Leap2Century == 0:
-
-  print(f"{year} is a Leap Centuary Year" )
-
+if LeapYear ==0 and LeapCentury !=0:
+    print(f'{year} is leap year')
+elif Leap2Century == 0 and LeapCentury==0:
+    print(f'{year} is a leap year')   
 else:
-
-  print(f"{year} is not a Leap Year")
+    print(f'{year} is not a leap year')     
